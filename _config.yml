@@ -1,0 +1,14 @@
+title: 遠山和夫 個人開発アプリ 法務文書
+description: プライバシーポリシー・利用規約集
+markdown: kramdown
+theme: jekyll-theme-minimal
+permalink: /:path/:basename/
+exclude:
+  - README.md
+  - .gitignore
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
